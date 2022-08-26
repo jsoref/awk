@@ -332,7 +332,7 @@ function do_year()
 function get_abbrev(s)
 {	# return abbrev from ``key = abbrev,''
 	sub(/^[^=]*= */,"",s)	# discard text up to start of non-blank value
-	sub(/ *,? *$/,"",s)	# discard trailing optional whitspace, quote,
+	sub(/ *,? *$/,"",s)	# discard trailing optional whitespace, quote,
 				# optional comma, and optional space
 	return (s)
 }
@@ -341,7 +341,7 @@ function get_abbrev(s)
 function get_key(s)
 {	# return kay from ``key = "value",''
 	sub(/^ */,"",s)		# discard leading space
-	sub(/ *=.*$/,"",s)	# discard everthing after key
+	sub(/ *=.*$/,"",s)	# discard everything after key
 
 	return (s)
 }
@@ -350,7 +350,7 @@ function get_key(s)
 function get_value(s)
 {	# return value from ``key = "value",''
 	sub(/^[^\"]*\" */,"",s)	# discard text up to start of non-blank value
-	sub(/ *\",? *$/,"",s)	# discard trailing optional whitspace, quote,
+	sub(/ *\",? *$/,"",s)	# discard trailing optional whitespace, quote,
 				# optional comma, and optional space
 	return (s)
 }
@@ -828,7 +828,7 @@ function print_toc_line(author,title,pages, extra,leaders,n,t)
 	Title_prefix = ""	# forget any hypertext
 	Title_suffix = ""	# link material
 
-	# Efficency note: an earlier version accumulated the body in a
+	# Efficiency note: an earlier version accumulated the body in a
 	# single scalar like this: "Body = Body t".  Profiling revealed
 	# this statement as the major hot spot, and the change to array
 	# storage made the program more than twice as fast.  This

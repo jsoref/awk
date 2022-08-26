@@ -31,7 +31,7 @@ THIS SOFTWARE.
 ## Distribution and Reporting Problems
 
 Changes, mostly bug fixes and occasional enhancements, are listed
-in `FIXES`.  If you distribute this code further, please please please
+in `FIXES`.  If you distribute this code further, please, please, please
 distribute `FIXES` with it.
 
 If you find errors, please report them
@@ -103,7 +103,7 @@ You can also use `make CC=g++` to build with the GNU C++ compiler,
 should you choose to do so.
 
 The version of `malloc` that comes with some systems is sometimes
-astonishly slow.  If `awk` seems slow, you might try fixing that.
+astonishingly slow.  If `awk` seems slow, you might try fixing that.
 More generally, turning on optimization can significantly improve
 `awk`'s speed, perhaps by 1/3 for highest levels.
 

@@ -202,7 +202,7 @@ January 9, 2020:
 	mere warnings. Thanks to Martijn Dekker <martijn@inlv.org>.
 
 January 5, 2020:
-	Fix a bug in the concatentation of two string constants into
+	Fix a bug in the concatenation of two string constants into
 	one done in the grammar.  Fixes GitHub issue #61.  Thanks
 	to GitHub user awkfan77 for pointing out the direction for
 	the fix.  New test T.concat added to the test suite.
@@ -434,7 +434,7 @@ Jun 12, 2011:
 	ruslan ermilov for spotting this and providing the patch.
 
 	removed fixed limit on number of open files; thanks to aleksey
-	cheusov and christos zoulos.
+	cheusov and christos zoulas.
 
 	fixed day 1 bug that resurrected deleted elements of ARGV when
 	used as filenames (in lib.c).
@@ -844,7 +844,7 @@ Jan 13, 1999:
 	added a few (int) casts to silence useless compiler warnings.
 	e.g., errorflag= in run.c jump().
 
-	added proctab.c to the bundle outout; one less thing
+	added proctab.c to the bundle output; one less thing
 	to have to compile out of the box.
 
 	added calls to _popen and _pclose to the win95 stub for
@@ -1337,7 +1337,7 @@ Oct 20, 1988:
 Oct 12, 1988:
 	Fixed bug in call() that freed local arrays twice.
 
-	Fixed to handle deletion of non-existent array right;
+	Fixed to handle deletion of nonexistent array right;
 	complains about attempt to delete non-array element.
 
 Sep 30, 1988:
